@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-26T15:50:19.597732",
+  "ei_band_attack": {
+    "ea_only_pass_sigma01": 500,
+    "dual_pass_sigma01": 0,
+    "ea_only_zero": 500,
+    "dual_zero": 0,
+    "ea_only_rand": 500,
+    "dual_rand": 0
+  },
+  "storage_float32": {
+    "cos": 1.0,
+    "ea_pass": 500,
+    "ei_pass": 499,
+    "dual_pass": 499
+  },
+  "storage_float16": {
+    "cos": 1.0,
+    "ea_pass": 500,
+    "ei_pass": 381,
+    "dual_pass": 381
+  },
+  "storage_bfloat16": {
+    "cos": 0.9999998807907104,
+    "ea_pass": 500,
+    "ei_pass": 9,
+    "dual_pass": 9
+  },
+  "storage_int8": {
+    "cos": 0.9999628067016602,
+    "ea_pass": 500,
+    "ei_pass": 1,
+    "dual_pass": 1
+  },
+  "confidence_distributions": {
+    "legit_mean": 0.9993500000000001,
+    "legit_min": 0.675,
+    "inject_mean": 0.621375,
+    "inject_max": 0.7375,
+    "centroid_mean": 0.62275,
+    "centroid_max": 0.7124999999999999
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-26T15:50:28.480168",
+  "design": "domain-separated (attr/integ tags)",
+  "cos": 0.9760358929634094,
+  "e1_self": 500,
+  "e0_self": 499,
+  "stream_overlap": 0,
+  "centroids": 200,
+  "ks_E_A_p": 1.0,
+  "ks_E_I_p": 1.0,
+  "guessed_keys": 0,
+  "scale_cos": 0.9470123052597046,
+  "scale_self": 9995
+}
