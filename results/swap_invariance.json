@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-28T20:07:17.906456",
+  "experiment": "Remark 1 \u2014 swap-preserving (value-permuting) edits",
+  "source": "synthetic(d=768,m=818) [ModuleNotFoundError]",
+  "d": 768,
+  "e0_band": [
+    154,
+    384
+  ],
+  "e0_ppb": 10,
+  "identity_pass": 500,
+  "fullvec_perm_reject": 500,
+  "band_perm_reject": 500,
+  "fullvec_fi_invariant": 500,
+  "band_fi_invariant": 500,
+  "trials": 500,
+  "identity_pass_rate": 1.0,
+  "fullvec_reject_rate": 1.0,
+  "band_reject_rate": 1.0
+}
