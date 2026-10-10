@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-09T20:04:10.480107",
+  "test": "Black-Hole multiseed rerun (Table IV provenance)",
+  "seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "injected_rejected": "1050/1050",
+  "per_seed": {
+    "2026": {
+      "clean": 92,
+      "attacked": 53,
+      "ragmark": 92,
+      "poison_at5": 4.14
+    },
+    "2027": {
+      "clean": 88,
+      "attacked": 43,
+      "ragmark": 88,
+      "poison_at5": 4.16
+    },
+    "2028": {
+      "clean": 91,
+      "attacked": 51,
+      "ragmark": 91,
+      "poison_at5": 4.18
+    },
+    "2029": {
+      "clean": 89,
+      "attacked": 53,
+      "ragmark": 89,
+      "poison_at5": 4.12
+    },
+    "2030": {
+      "clean": 91,
+      "attacked": 50,
+      "ragmark": 90,
+      "poison_at5": 4.0
+    }
+  },
+  "mean_A": [
+    90.2,
+    1.6431676725154982
+  ],
+  "mean_B": [
+    50.0,
+    4.123105625617661
+  ],
+  "mean_C": [
+    90.0,
+    1.5811388300841898
+  ],
+  "poison_at5_mean": 4.12,
+  "ttest_A_vs_C": {
+    "t": 1.0,
+    "p": 0.37390096630005887
+  }
+}

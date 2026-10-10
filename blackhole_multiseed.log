@@ -1,0 +1,27 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+============================================================
+Black-Hole Multiseed Rerun (Table IV)
+============================================================
+
+[1/4] Loading corpus + embedding...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2414.50it/s]
+Batches:   0%|          | 0/16 [00:00<?, ?it/s]Batches:   6%|▋         | 1/16 [00:00<00:11,  1.36it/s]Batches:  19%|█▉        | 3/16 [00:00<00:03,  4.12it/s]Batches:  25%|██▌       | 4/16 [00:01<00:02,  4.61it/s]Batches:  44%|████▍     | 7/16 [00:01<00:01,  8.73it/s]Batches:  69%|██████▉   | 11/16 [00:01<00:00, 14.20it/s]Batches:  94%|█████████▍| 15/16 [00:01<00:00, 19.66it/s]Batches: 100%|██████████| 16/16 [00:01<00:00, 11.27it/s]
+[2/4] Watermarking...
+[3/4] Generating Black-Hole attack vectors...
+  Injected rejected: 1050/1050
+[4/4] Per-seed retrieval (A/B/C)...
+  seed 2026: (A) Clean=92%  (B) Attack=53% poison=4.1  (C) RagMark=92%
+  seed 2027: (A) Clean=88%  (B) Attack=43% poison=4.2  (C) RagMark=88%
+  seed 2028: (A) Clean=91%  (B) Attack=51% poison=4.2  (C) RagMark=91%
+  seed 2029: (A) Clean=89%  (B) Attack=53% poison=4.1  (C) RagMark=89%
+  seed 2030: (A) Clean=91%  (B) Attack=50% poison=4.0  (C) RagMark=90%
+
+============================================================
+  (A) Clean   : 90.2 +/- 1.6  (min 88, max 92)
+  (B) Attacked: 50.0 +/- 4.1  poison@5 = 4.1
+  (C) RagMark : 90.0 +/- 1.6  (min 88, max 92)
+  Paired t-test A vs C: t = 1.000, p = 0.374
+  Paper's Table IV claims: 90.2+/-1.6 / 50.0+/-4.1 / 90.0+/-1.6, poison 4.1, p = 0.37
+============================================================
+
+Saved results/blackhole_multiseed.json
