@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-26T15:50:54.538751",
+  "legit_pass": 499,
+  "ea_accept": 11,
+  "ea_wrong_source": 0,
+  "dual_reasons": {
+    "c_I<tau": 1,
+    "c_A<tau": 488,
+    "s_A!=s_I": 11,
+    "accept": 0
+  },
+  "dual_caught": 500,
+  "trials": 500,
+  "same_source_reasons": {
+    "c_I<tau": 1,
+    "c_A<tau": 193,
+    "s_A!=s_I": 6,
+    "accept": 0
+  },
+  "same_source_trials": 200
+}

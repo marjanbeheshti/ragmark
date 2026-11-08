@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-02T17:20:45.219131",
+  "test": "watermark value over signed-hash-only baseline",
+  "A_injection": {
+    "ragmark": "50/50",
+    "baseline": "50/50"
+  },
+  "A_bytemod": {
+    "ragmark": "50/50",
+    "baseline": "50/50"
+  },
+  "B_baseline_with_record": "100/100",
+  "B_baseline_no_record": "0/100",
+  "B_ragmark_recovered": "99/100",
+  "B_ragmark_sid_correct": "99/99",
+  "C_ragmark_acc": 1.0,
+  "C_ragmark_ci_sep": [
+    1.0,
+    0.6250625
+  ],
+  "C_cos_overlap": {
+    "ours": [
+      0.2608289590664208,
+      0.08616083746689446
+    ],
+    "alien": [
+      0.11785009190090932,
+      0.07086504141738044
+    ]
+  },
+  "C_baseline_acc": 0.5,
+  "D_exact": "100/100",
+  "D_noised": "0/100",
+  "D_baseline": "0/100",
+  "E_ragmark_genuine_pass": "200/200",
+  "E_ragmark_alien_reject": "200/200",
+  "E_baseline_nocheck": "200/200"
+}

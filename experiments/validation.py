@@ -178,10 +178,11 @@ def main():
                 best = 0.0
                 for _q in range(5000):
                     j = ro.integers(e0b[0], e0b[1])
+                    _old = vp[j]
                     vp[j] += ro.normal(0, 0.01)
                     _, c, _ = R.decode_e0(vp, KEY, e0b, e0p)
                     if c > best: best = c
-                    else: vp[j] -= ro.normal(0, 0.01)
+                    else: vp[j] = _old
                     if best >= R.TAU: break
                 best_all.append(best)
         forged_o = sum(b >= R.TAU for b in best_all)

@@ -67,7 +67,9 @@ def load_corpus(n_docs, seed=2026, model_name="all-mpnet-base-v2"):
     try:
         from sentence_transformers import SentenceTransformer
         from datasets import load_dataset
-        ds = load_dataset("squad", split="train")
+        # Canonical namespaced ID (matches validation.py); the bare
+        # "squad" alias is deprecated and raises HfUriError.
+        ds = load_dataset("rajpurkar/squad", split="train")
         seen, texts = set(), []
         for r in ds:
             c = r["context"]

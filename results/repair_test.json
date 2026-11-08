@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-29T14:23:41.660084",
+  "test": "metadata repair (re-signing)",
+  "seed": 2026,
+  "A_stripped_reject": "100/100",
+  "A_repaired": "99/100",
+  "A_repaired_pass": "99/99",
+  "A_sid_ok": "99/99",
+  "A_statuses": {
+    "REPAIRED": 99,
+    "NEEDS_REINGEST": 1
+  },
+  "B_refused": "100/100",
+  "C_blessed": "50/50"
+}

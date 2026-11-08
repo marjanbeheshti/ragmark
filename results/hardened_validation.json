@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-29T13:26:08.648578",
+  "test": "all attacks vs hardened verifier",
+  "legitimate vectors": "499/500",
+  "sub-resolution nudge": "0/500",
+  "sub-res nudge + delete meta": "0/500",
+  "free-position permutation": "0/500",
+  "permutation + delete meta": "0/500",
+  "rebinding (metadata deleted)": "0/500",
+  "index rebind (meta kept)": "0/~500",
+  "revoked-doc replay": "0/50",
+  "flooding replicas (byte-genuine)": "20/20",
+  "...after doc_id dedup": "5/5 unique"
+}

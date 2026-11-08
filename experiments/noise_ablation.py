@@ -207,12 +207,13 @@ def main():
             best_conf = 0.0
             for q in range(5000):  # 5k queries per trial (faster)
                 idx = rng_o.integers(e0_band[0], e0_band[1])
+                _old = v_pc[idx]
                 v_pc[idx] += rng_o.normal(0, 0.01)
                 _, conf, _ = e0_decode(v_pc, KEY, e0_band, e0_ppb)
                 if conf > best_conf:
                     best_conf = conf
                 else:
-                    v_pc[idx] -= rng_o.normal(0, 0.01)
+                    v_pc[idx] = _old
                 if best_conf >= TAU:
                     break
             seed_confs.append(best_conf)

@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-29T13:26:38.203897",
+  "test": "benign-ops false rejects, hardened verifier",
+  "identity_(in-memory)_base": "499/500",
+  "identity_(in-memory)_hardened": "499/500",
+  "float32_round_trip_base": "499/500",
+  "float32_round_trip_hardened": "499/500",
+  ".npy_save/load_(f32)_base": "499/500",
+  ".npy_save/load_(f32)_hardened": "499/500",
+  "JSON_round_trip_(f32)_base": "499/500",
+  "JSON_round_trip_(f32)_hardened": "499/500",
+  "raw_bytes_store_(f32)_base": "499/500",
+  "raw_bytes_store_(f32)_hardened": "499/500",
+  "FAISS_add+reconstruct_base": "499/500",
+  "FAISS_add+reconstruct_hardened": "499/500",
+  "float16_storage_base": "381/500",
+  "float16_storage_hardened": "0/500"
+}

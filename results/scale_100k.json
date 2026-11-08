@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-02T18:08:09.735295",
+  "test": "scale run, 100000 MS MARCO passages",
+  "n_docs": 100000,
+  "corpus_size": 100000,
+  "n_queries_used": 1000,
+  "pca_fit_s": 0.10924987902399153,
+  "embed_ms_per_vec": 0.5581806443003007,
+  "cossim": 0.9205574867799035,
+  "self_check": "99945/100000",
+  "verify_ms_per_vec": 0.17505147368065083,
+  "recall_clean": "953/1000",
+  "recall_wm": "949/1000",
+  "blackhole_rejected": "1000/1000",
+  "storage": {
+    "float32": "4996/5000",
+    "float16": "3234/5000",
+    "bfloat16": "215/5000",
+    "int8 (symmetric)": "0/5000"
+  }
+}

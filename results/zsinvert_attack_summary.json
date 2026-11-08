@@ -1,0 +1,24 @@
+{
+  "attack": "ZSInvert (Zhang et al. 2025, arXiv:2504.00147)",
+  "encoder": "all-mpnet-base-v2",
+  "n": 50,
+  "params": {
+    "n": 50,
+    "beam_width": 30,
+    "max_steps": 32,
+    "top_k": 30,
+    "seed": 2026
+  },
+  "watermarked_targets_pass_EI": 50,
+  "laundered_pass_EI": 0,
+  "laundered_pass_with_correct_source": 0,
+  "mean_laundered_cI": 0.6285000000000001,
+  "mean_bleu": 0.0015125859986522378,
+  "mean_cos_rec_vs_clean": 0.7537683061873005,
+  "mean_cos_rec_vs_wm": 0.7476190405116963,
+  "top5_hit_original": 0.8903386993123835,
+  "top5_hit_laundered": 0.7798841012788381,
+  "strict_verdicts": [
+    "{'verdict': 'REJECTED_NO_METADATA', 'source_id': None, 'c_i': None, 'c_a': None}"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-29T12:56:25.964468",
+  "attack": "rebinding via metadata deletion",
+  "seed": 2026,
+  "base_entry_pass": "500/500",
+  "base_misdirected": "460/500",
+  "base_misdirected_pct": 92.0,
+  "strict_pass": "0/500",
+  "index_rebind_pass": "0/497"
+}

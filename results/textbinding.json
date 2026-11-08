@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-02T17:57:43.169235",
+  "test": "text-binding v2 (single tuple) vs payload-swap",
+  "A_swap_pass": "499/500",
+  "B_swap_rejected": "500/500",
+  "B_legit_pass": "499/500",
+  "C_downgrade_rejected": "500/500",
+  "D_variants": {
+    "CRLF newlines": "499/500",
+    "NFD normalization": "499/500",
+    "trailing whitespace": "499/500"
+  }
+}
